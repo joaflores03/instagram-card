@@ -1,0 +1,210 @@
+main{
+    width: 100%;
+    height: 100%;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: #fff;
+    border:1px solid rgba(128, 128, 128, 0.247);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+    transition: all 0.3s ease-in-out;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.247);
+}
+.top-left{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.user-wrapper{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.user{
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: -10px;
+    margin-left: 10px;
+}
+.lugar{
+    font-size: 10px;
+    color: rgba(105, 105, 105, 0.486);
+    margin-left: 10px;
+}
+.profile{
+    width: 30px;
+    border: 3px solid transparent; 
+    background:  #25e225; 
+    border-radius: 50%;
+}
+
+.top-right{
+    display: flex;
+    width: -50%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.image-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.247);
+}
+.mainImage{
+    width: 100%;
+    height: 100%;
+}
+
+.sub-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.sub-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.sub-left{
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.sub-right{
+    display: flex;
+    width: -50%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sub-liked{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10px;
+}
+.profileLiked{
+    width: 20px; 
+    border-radius: 50%;
+}
+.second{
+    margin-left: -5px;
+    width: 20px;
+    height: 20px;
+}
+.likedby{
+    font-size: 12px;
+    color: rgba(105, 105, 105, 1);
+    margin-left: 3px;
+}
+
+.likedby b{
+    color: #000;
+}
+
+.sub-title{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin-top: -15px;
+}
+.user{
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: -10px;
+    margin-left: 10px;
+}
+.description{
+    font-size: 12px;
+    color: rgba(105, 105, 105, 1);
+    margin-left: 5px;
+}
+.comments{
+    width: 100%;
+    margin-top: -5px;
+    margin-left: 10px;
+    color: rgba(105, 105, 105, .5);
+    font-size: 13px;
+}
+.sub-ago{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.247);
+}
+.ago{
+    font-size: 12px;
+    color: rgba(105, 105, 105, .5);
+    margin-left: 10px;
+    margin-top: -5px;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+}
+.bottom-left{
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+    align-items: center;
+}
+.bottom-right{
+    display: flex;
+    width: -50%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.addcomment{
+    /*comment input*/
+    border: none;
+    outline: none;
+    background: none;
+    margin-left: 10px;
+}
+.post-btn{
+    height: 40px;
+    border: none;
+    color: rgba(83, 222, 247, 0.400);
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.liked:hover{
+    color:red;
+}
